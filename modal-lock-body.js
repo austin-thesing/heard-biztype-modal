@@ -7,7 +7,7 @@ function preventBodyScroll(e) {
 }
 
 // Function to enable or disable body scrolling
-function toggleBodyScrolling(isEnabled) {
+  function toggleBodyScrolling(isEnabled) {
   if (isEnabled) {
     // Re-enable body scrolling
     document.body.classList.remove('overflow-lock');
